@@ -19897,6 +19897,10 @@
         "targetCapacityReservationGroupId": {
           "type": "string",
           "description": "The target capacity reservation group ARM Id."
+        },
+        "targetExtendedLocation": {
+          "$ref": "#/definitions/ExtendedLocation",
+          "description": "The target extended location."
         }
       },
       "required": [
@@ -21568,6 +21572,10 @@
         "targetCapacityReservationGroupId": {
           "type": "string",
           "description": "The target capacity reservation group ARM Id."
+        },
+        "targetExtendedLocation": {
+          "$ref": "#/definitions/ExtendedLocation",
+          "description": "The target extended location."
         }
       },
       "allOf": [
@@ -21875,6 +21883,10 @@
         "targetCapacityReservationGroupId": {
           "type": "string",
           "description": "The target capacity reservation group ARM Id."
+        },
+        "targetExtendedLocation": {
+          "$ref": "#/definitions/ExtendedLocation",
+          "description": "The target extended location."
         }
       },
       "allOf": [
@@ -29333,6 +29345,10 @@
         "targetCapacityReservationGroupId": {
           "type": "string",
           "description": "The target capacity reservation group ARM Id."
+        },
+        "targetExtendedLocation": {
+          "$ref": "#/definitions/ExtendedLocation",
+          "description": "The target extended location."
         }
       },
       "required": [
@@ -29665,6 +29681,10 @@
         "targetCapacityReservationGroupId": {
           "type": "string",
           "description": "The target capacity reservation group ARM Id."
+        },
+        "targetExtendedLocation": {
+          "$ref": "#/definitions/ExtendedLocation",
+          "description": "The target extended location."
         }
       },
       "allOf": [
@@ -30213,6 +30233,10 @@
         "targetCapacityReservationGroupId": {
           "type": "string",
           "description": "The target capacity reservation group ARM Id."
+        },
+        "targetExtendedLocation": {
+          "$ref": "#/definitions/ExtendedLocation",
+          "description": "The target extended location."
         }
       },
       "allOf": [

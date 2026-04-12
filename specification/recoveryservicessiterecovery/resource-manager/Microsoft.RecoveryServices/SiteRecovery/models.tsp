@@ -14451,6 +14451,12 @@ model InMageRcmEnableProtectionInput
   targetCapacityReservationGroupId?: string;
 
   /**
+   * The target extended location.
+   */
+  @added(Versions.v2026_02_01)
+  targetExtendedLocation?: ExtendedLocation;
+
+  /**
    * The class type.
    */
   instanceType: "InMageRcm";
@@ -16286,6 +16292,12 @@ model InMageRcmReplicationDetails extends ReplicationProviderSpecificSettings {
   targetCapacityReservationGroupId?: string;
 
   /**
+   * The target extended location.
+   */
+  @added(Versions.v2026_02_01)
+  targetExtendedLocation?: ExtendedLocation;
+
+  /**
    * Gets the Instance type.
    */
   instanceType: "InMageRcm";
@@ -16514,6 +16526,12 @@ model InMageRcmUpdateReplicationProtectedItemInput
    * The target capacity reservation group ARM Id.
    */
   targetCapacityReservationGroupId?: string;
+
+  /**
+   * The target extended location.
+   */
+  @added(Versions.v2026_02_01)
+  targetExtendedLocation?: ExtendedLocation;
 
   /**
    * The class type.
@@ -18302,6 +18320,12 @@ model VMwareCbtEnableMigrationInput
   targetCapacityReservationGroupId?: string;
 
   /**
+   * The target extended location.
+   */
+  @added(Versions.v2026_02_01)
+  targetExtendedLocation?: ExtendedLocation;
+
+  /**
    * The class type.
    */
   instanceType: "VMwareCbt";
@@ -18676,6 +18700,12 @@ model VMwareCbtMigrationDetails extends MigrationProviderSpecificSettings {
    * The target capacity reservation group ARM Id.
    */
   targetCapacityReservationGroupId?: string;
+
+  /**
+   * The target extended location.
+   */
+  @added(Versions.v2026_02_01)
+  targetExtendedLocation?: ExtendedLocation;
 
   /**
    * Gets the instance type.
@@ -19271,6 +19301,12 @@ model VMwareCbtUpdateMigrationItemInput
    * The target capacity reservation group ARM Id.
    */
   targetCapacityReservationGroupId?: string;
+
+  /**
+   * The target extended location.
+   */
+  @added(Versions.v2026_02_01)
+  targetExtendedLocation?: ExtendedLocation;
 
   /**
    * The class type.
